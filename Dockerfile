@@ -1,5 +1,5 @@
 # base container image
-FROM alpine:3.10
+FROM ubuntu:22.04
 
 # copy files from repo to container filesystem
 COPY entrypoint.sh /entrypoint.sh
