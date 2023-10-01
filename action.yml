@@ -6,8 +6,8 @@ inputs:
     required: true
     default: 'World'
 outputs:
-  time: # identify output
-  description: 'time when greeting made'
+  time: # id of output
+    description: 'time when greeting made'
 runs:
   using: 'docker'
   image: 'DockerFile'   # create container using instructions in this directory
