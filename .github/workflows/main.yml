@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: hello world action step
         id: hello
-        uses: rconybea/docker-action-example
+        uses: rconybea/docker-action-example@v1
         with:
           who-to-greet: 'Iffy!  What are you doing??'
       # do something with output
