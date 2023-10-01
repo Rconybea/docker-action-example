@@ -1,13 +1,17 @@
 name: 'Hello World'
+
 description: 'Greet someone + record the time'
+
 inputs:
   who-to-greet:
     description: 'Who to greet'
     required: true
-    default: 'World'
+    default: "World"
+
 outputs:
   time:
-    description: 'time when greeting made'
+    description: "time when greeting made"
+
 runs:
   using: 'docker'
   image: 'DockerFile'
