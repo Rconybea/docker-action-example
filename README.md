@@ -1,6 +1,6 @@
 # example docker action
 
-Prints "hello world" or "hello" + argument to log
+Prints "hello world" or "hello" + argument to log.
 
 ## Inputs
 

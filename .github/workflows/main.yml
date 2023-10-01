@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs_on: ubuntu-latest
+    name: a job to say hello, perhaps fiercely
+    steps:
+      - name: hello world action step
+        id: hello
+        uses: rconybea/docker-action-example
+        with:
+          who-to-greet: 'Iffy!  What are you doing??'
+      # do something with output
+      - name: get output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        
